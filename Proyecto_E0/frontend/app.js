@@ -4,14 +4,6 @@ const routes=[
     {path:'/evento',component:evento}
 ]
 
-/*const router=new VueRouter({
-    routes
-})
-
-const app = new Vue({
-    router
-}).$mount('#app')*/
-
 
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),

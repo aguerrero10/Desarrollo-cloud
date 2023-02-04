@@ -19,7 +19,7 @@ class Evento(db.Model):
     direccion = db.Column(db.String(50))
     fecha_inicio = db.Column(db.String(50))
     fecha_fin = db.Column(db.String(50)) 
-    tipo = db.Column(db.String(50))  #Presencial/Virtual
+    tipo = db.Column(db.String(50)) 
     usuario = db.Column(db.Integer, db.ForeignKey("usuario.id"))
 
 class Usuario(db.Model):
